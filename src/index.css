@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.header {
+  
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
+  padding: 2%;
+  background-color: #134864;
+  border-radius: 25px;
+  width: 20%;
+}
+
+.header > h2 {
+  font-weight: bold;
+  color: #b4b7be
+}
+
+.header > img {
+  border-radius: 25px;
+}
+
+.about {
+  color: #b4b7be;
+}
